@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 15px 30px 10px 10px;
+} 
+
+nav img {
+	border-radius: 50%;
+	color: #404040;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 15px;
+    vertical-align: middle;
+}
+
+nav button{
+	height: 30px;
+	border: solid #f2f2f2;
+	float: right;
+	color: #404040;
+	background: #f2f2f2;
+}
+
+.logo {
+	display: block;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.searchbar {
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+}
+
+input[type="text"] {
+    width: 546px;
+    height: 24px;
+}
+
+.buttons {
+	display: block;
+	text-align: center;
+	padding: 16px;
+}
+
+.buttons button {
+	font-size: 11px;
+	font-weight: bold;
+	color: #444;
+	height: 25px;
+	border: 1px solid #dcdcdc;
+	float: center;
+	background-color: #f4f5f5; background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f5f5), to(#dfdddd));
+ 	background-image: -webkit-linear-gradient(top, #f4f5f5, #dfdddd);
+ 	background-image: -moz-linear-gradient(top, #f4f5f5, #dfdddd);
+ 	background-image: -ms-linear-gradient(top, #f4f5f5, #dfdddd);
+ 	background-image: -o-linear-gradient(top, #f4f5f5, #dfdddd);
+ 	background-image: linear-gradient(to bottom, #f4f5f5, #dfdddd);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f4f5f5, endColorstr=#dfdddd);
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #f2f2f2;
+	line-height: 40px;
+	vertical-align: middle;
+	border-top: 1px solid #e4e4e4;
+}
+
+footer li {
+	display: inline;
+}
+
+#leftside a {
+	float: left;
+	padding-left: 30px;
+	font-family: arial;
+  	color: #666;
+}
+
+#rightside a {
+	float: right;
+	font-family: arial;
+  	color: #666;
+  	padding-right: 30px;
+}
